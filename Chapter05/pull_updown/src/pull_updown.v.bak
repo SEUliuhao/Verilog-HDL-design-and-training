@@ -1,0 +1,26 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : pull_updown.v
+// FUNCTION        : 多输入门电路原语模块的实例化语句举例
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+
+module pull_updown(
+    output d_up,
+    output d_down,
+    );
+    
+    //实例化上拉电阻模块
+    pullup U1_pullup(d_up);
+
+    //实例化下拉模块
+    pulldown U1_pulldown(d_down);
+
+endmodule
+// END OF pull_updown.v FILE ***************************************************
+
+    
+   

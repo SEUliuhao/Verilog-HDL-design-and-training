@@ -1,0 +1,8 @@
+H:/fourbook/FB/code/Chapter13/d_latch/src/d_latch.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter13/d_latch/src/d_latch.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module d_latch
+
+Top level modules:
+	d_latch
+
+} {} {}}

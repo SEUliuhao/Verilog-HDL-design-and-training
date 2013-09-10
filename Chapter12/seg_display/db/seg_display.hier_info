@@ -1,0 +1,16 @@
+|seg_display
+i_data[0] => Decoder0.IN3
+i_data[1] => Decoder0.IN2
+i_data[2] => Decoder0.IN1
+i_data[3] => Decoder0.IN0
+i_dp => o_dp.DATAIN
+o_seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+o_dp <= i_dp.DB_MAX_OUTPUT_PORT_TYPE
+
+

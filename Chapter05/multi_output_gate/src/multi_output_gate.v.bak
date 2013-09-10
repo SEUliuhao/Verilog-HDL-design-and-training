@@ -1,0 +1,31 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : multi_output_gate.v
+// FUNCTION        : 多输入门电路原语模块的实例化语句举例
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+
+module multi_output_gate(
+    input din,
+    
+    output d_not_one,
+    output d_not_two,
+    output d_not_three,
+    output d_buf_one,
+    output d_buf_two,
+    output d_buf_three
+    );
+    
+    //实例化原语多输出非门模块
+    not U1_and(d_not_one, d_not_two,d_not_three, din);
+
+    //实例化原语多输出缓冲门模块    
+    buf U2_buf(d_buf_one, d_buf_two, d_buf_three, din);
+endmodule
+// END OF multi_output_gate.v FILE *********************************************
+
+    
+   

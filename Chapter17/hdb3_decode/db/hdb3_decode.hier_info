@@ -1,0 +1,32 @@
+|hdb3_decode
+i_rst_n => r_hdb3_minus[0].ACLR
+i_rst_n => r_hdb3_minus[1].ACLR
+i_rst_n => r_hdb3_minus[2].ACLR
+i_rst_n => r_hdb3_minus[3].ACLR
+i_rst_n => r_hdb3_minus[4].ACLR
+i_rst_n => r_hdb3_plus[0].ACLR
+i_rst_n => r_hdb3_plus[1].ACLR
+i_rst_n => r_hdb3_plus[2].ACLR
+i_rst_n => r_hdb3_plus[3].ACLR
+i_rst_n => r_hdb3_plus[4].ACLR
+i_clk => r_hdb3_minus[0].CLK
+i_clk => r_hdb3_minus[1].CLK
+i_clk => r_hdb3_minus[2].CLK
+i_clk => r_hdb3_minus[3].CLK
+i_clk => r_hdb3_minus[4].CLK
+i_clk => r_hdb3_plus[0].CLK
+i_clk => r_hdb3_plus[1].CLK
+i_clk => r_hdb3_plus[2].CLK
+i_clk => r_hdb3_plus[3].CLK
+i_clk => r_hdb3_plus[4].CLK
+i_hdb3_code[0] => always0.IN1
+i_hdb3_code[0] => always0.IN1
+i_hdb3_code[0] => r_hdb3_minus.DATAA
+i_hdb3_code[0] => r_hdb3_minus.DATAB
+i_hdb3_code[0] => r_hdb3_minus.DATAB
+i_hdb3_code[1] => always0.IN1
+i_hdb3_code[1] => always0.IN1
+i_hdb3_code[1] => r_hdb3_plus.DATAA
+i_hdb3_code[1] => r_hdb3_plus.DATAB
+
+

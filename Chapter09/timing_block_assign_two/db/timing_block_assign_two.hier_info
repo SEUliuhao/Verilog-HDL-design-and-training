@@ -1,0 +1,8 @@
+|timing_block_assign_two
+clk => temp_one.CLK
+clk => temp_two.CLK
+clk => y_r.CLK
+a => temp_one.DATAIN
+y <= y_r.DB_MAX_OUTPUT_PORT_TYPE
+
+

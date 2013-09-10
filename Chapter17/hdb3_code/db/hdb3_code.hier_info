@@ -1,0 +1,80 @@
+|hdb3_code
+i_rst_n => i_rst_n.IN3
+i_clk => i_clk.IN3
+i_data => i_data.IN1
+
+
+|hdb3_code|hdb3_plug_v:I1_hdb3_plug_v
+i_rst_n => r_plug_v_code_l[0].ACLR
+i_rst_n => r_plug_v_code_l[1].ACLR
+i_rst_n => r_plug_v_code_l[2].ACLR
+i_rst_n => r_plug_v_code_l[3].ACLR
+i_rst_n => r_plug_v_code_h[0].ACLR
+i_rst_n => r_plug_v_code_h[1].ACLR
+i_rst_n => r_plug_v_code_h[2].ACLR
+i_rst_n => r_plug_v_code_h[3].ACLR
+i_rst_n => r_data_shift[0].PRESET
+i_rst_n => r_data_shift[1].PRESET
+i_rst_n => r_data_shift[2].PRESET
+i_clk => r_plug_v_code_l[0].CLK
+i_clk => r_plug_v_code_l[1].CLK
+i_clk => r_plug_v_code_l[2].CLK
+i_clk => r_plug_v_code_l[3].CLK
+i_clk => r_plug_v_code_h[0].CLK
+i_clk => r_plug_v_code_h[1].CLK
+i_clk => r_plug_v_code_h[2].CLK
+i_clk => r_plug_v_code_h[3].CLK
+i_clk => r_data_shift[0].CLK
+i_clk => r_data_shift[1].CLK
+i_clk => r_data_shift[2].CLK
+i_data => r_data_shift[0].DATAIN
+i_data => r_plug_v_code_l.DATAA
+i_data => always1.IN1
+
+
+|hdb3_code|hdb3_plug_b:I1_hdb3_plug_b
+i_rst_n => r_plug_b_code_l[0].ACLR
+i_rst_n => r_plug_b_code_l[1].ACLR
+i_rst_n => r_plug_b_code_l[2].ACLR
+i_rst_n => r_plug_b_code_l[3].ACLR
+i_rst_n => r_plug_b_code_l[4].ACLR
+i_rst_n => r_plug_b_code_h[0].ACLR
+i_rst_n => r_plug_b_code_h[1].ACLR
+i_rst_n => r_plug_b_code_h[2].ACLR
+i_rst_n => r_plug_b_code_h[3].ACLR
+i_rst_n => r_plug_b_code_h[4].ACLR
+i_rst_n => r_not_0_parity.ACLR
+i_clk => r_plug_b_code_l[0].CLK
+i_clk => r_plug_b_code_l[1].CLK
+i_clk => r_plug_b_code_l[2].CLK
+i_clk => r_plug_b_code_l[3].CLK
+i_clk => r_plug_b_code_l[4].CLK
+i_clk => r_plug_b_code_h[0].CLK
+i_clk => r_plug_b_code_h[1].CLK
+i_clk => r_plug_b_code_h[2].CLK
+i_clk => r_plug_b_code_h[3].CLK
+i_clk => r_plug_b_code_h[4].CLK
+i_clk => r_not_0_parity.CLK
+i_plug_v_code[0] => Equal0.IN3
+i_plug_v_code[0] => Equal1.IN3
+i_plug_v_code[0] => r_plug_b_code_l.DATAA
+i_plug_v_code[1] => Equal0.IN2
+i_plug_v_code[1] => Equal1.IN2
+i_plug_v_code[1] => r_plug_b_code_h.DATAA
+
+
+|hdb3_code|hdb3_d2t:I1_hdb3_d2t
+i_rst_n => o_hdb3_code[0]~reg0.ACLR
+i_rst_n => o_hdb3_code[1]~reg0.ACLR
+i_rst_n => r_not_0_parity.ACLR
+i_clk => o_hdb3_code[0]~reg0.CLK
+i_clk => o_hdb3_code[1]~reg0.CLK
+i_clk => r_not_0_parity.CLK
+i_plug_b_code[0] => Equal0.IN3
+i_plug_b_code[0] => Equal1.IN3
+i_plug_b_code[0] => Equal2.IN3
+i_plug_b_code[1] => Equal0.IN2
+i_plug_b_code[1] => Equal1.IN2
+i_plug_b_code[1] => Equal2.IN2
+
+

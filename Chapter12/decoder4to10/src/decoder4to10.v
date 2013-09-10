@@ -1,0 +1,48 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : decoder4to10.v
+// FUNCTION        : 4位数据到10位开关的译码器
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》————北京航天航空大学出版社
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module decoder4to10
+    (
+        input [3: 0]i_data, //定义10位的数据输入        
+        
+        output [9 : 0] o_decode //定义4位的编码输出
+    );
+    
+    //定义输出信号o_code的缓存
+    reg [9 :0] r_decode;
+    
+    assign o_decode = r_decode; //通过assign连续赋值语句更新编码输出
+    
+       
+   
+    always @(*) //使用always进程的行为方式描述比较方便
+    begin
+   	    case(i_data)
+   	        4'b0001: r_decode = 10'b0000000001; //组合电路使用阻塞赋值语句
+   	        4'b0010: r_decode = 10'b0000000010;
+   	        4'b0011: r_decode = 10'b0000000100;
+   	        4'b0100: r_decode = 10'b0000001000;
+   	        4'b0101: r_decode = 10'b0000010000;
+   	        4'b0110: r_decode = 10'b0000100000;
+   	        4'b0111: r_decode = 10'b0001000000;
+   	        4'b1000: r_decode = 10'b0010000000;
+   	        4'b1001: r_decode = 10'b0100000000;
+   	        4'b1010: r_decode = 10'b1000000000;
+   	        default: r_decode = 10'b0000000000; //不要忘了默认分支的赋值，避免产生锁在器
+   	    endcase
+	end
+    
+endmodule
+
+// END OF decoder4to10.v FILE ***************************************************
+
+
+

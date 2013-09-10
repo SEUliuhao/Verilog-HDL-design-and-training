@@ -1,0 +1,8 @@
+H:/fourbook/FB/code/Chapter15/crc_two/crc_two_tb.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter15/crc_two/crc_two_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module crc_two_tb
+
+Top level modules:
+	crc_two_tb
+
+} {} {}}

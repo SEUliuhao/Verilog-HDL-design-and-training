@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter12\gate_module
+vcoder10to4
+IbcjEzZ9b8WGG:3mYYHFP12
+VAKhoUn]7nUU9RoQB>LPfi3
+Z0 dH:\fourbook\FB\code\Chapter12\coder10to4
+w1325939250
+8H:/fourbook/FB/code/Chapter12/coder10to4/src/coder10to4.v
+FH:/fourbook/FB/code/Chapter12/coder10to4/src/coder10to4.v
+L0 12
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 nZU7j`zz0_]X1n^YDGR:B3
+!s85 0
+!s101 -O0
+vcoder10to4_tb
+!s100 3LgK6<<^Z9=:5oz4UYPhL0
+I1HLI85FB4ZD6_<^O]4PMg2
+Voz9g[[D<0khHPPm4[hbJH1
+Z4 dH:\fourbook\FB\code\Chapter12\coder10to4
+w1325939484
+8H:/fourbook/FB/code/Chapter12/coder10to4/src/coder10to4_tb.v
+FH:/fourbook/FB/code/Chapter12/coder10to4/src/coder10to4_tb.v
+L0 12
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3

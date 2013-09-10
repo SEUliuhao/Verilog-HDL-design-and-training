@@ -1,0 +1,15 @@
+|tribuf_gate
+din => U1_bufif0.DATAIN
+din => U1_bufif1.DATAIN
+din => U1_notif0.DATAIN
+din => U1_notif1.DATAIN
+ctrl => U1_bufif1.OE
+ctrl => U1_notif1.OE
+ctrl => U1_bufif0.OE
+ctrl => U1_notif0.OE
+d_bufif0 <= U1_bufif0.DB_MAX_OUTPUT_PORT_TYPE
+d_bufif1 <= U1_bufif1.DB_MAX_OUTPUT_PORT_TYPE
+d_notif0 <= U1_notif0.DB_MAX_OUTPUT_PORT_TYPE
+d_notif1 <= U1_notif1.DB_MAX_OUTPUT_PORT_TYPE
+
+

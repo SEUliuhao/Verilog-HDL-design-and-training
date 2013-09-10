@@ -1,0 +1,45 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : casez_app.v
+// FUNCTION        : casez条件选择语句应用
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module casez_app( 
+    
+    );    
+
+    reg [3 : 0] sel;
+    reg [3 : 0] data;
+    
+    initial 
+    begin
+            sel = 4'b0000;
+        #1  sel = 4'b1000;
+        #1  sel = 4'b0100;
+        #1  sel = 4'b0010;
+        #1  sel = 4'b0001;
+        #1  sel = 4'b11zz;
+    end
+    
+    always @(sel)
+    begin
+        casez(sel)
+            4'b0000: data = 4'b0000;
+            4'b1zzz: data = 4'b0001; 
+            4'b01zz: data = 4'b0010;
+            4'b001z: data = 4'b0011;
+            4'bzzz1: data = 4'b0100;
+            4'b11zz: data = 4'b0101;  
+            default: data = 4'b0110;
+        endcasez
+    end
+          
+endmodule
+// END OF casez_app.v FILE ***************************************************
+
+  

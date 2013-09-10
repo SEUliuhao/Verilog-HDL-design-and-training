@@ -1,0 +1,256 @@
+Simulator report for bit_op
+Sat Feb 18 15:44:01 2012
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 97 nodes     ;
+; Simulation Coverage         ;     100.00 % ;
+; Total Number of Transitions ; 2635         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone      ;
++-----------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                             ;
++--------------------------------------------------------------------------------------------+-----------------------------------+---------------+
+; Option                                                                                     ; Setting                           ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                        ; Timing        ;
+; Start time                                                                                 ; 0 ns                              ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF                              ;               ;
+; Vector input source                                                                        ; src/simulation/quartus/bit_op.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                ; On            ;
+; Check outputs                                                                              ; Off                               ; Off           ;
+; Report simulation coverage                                                                 ; On                                ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                ; On            ;
+; Detect setup and hold time violations                                                      ; Off                               ; Off           ;
+; Detect glitches                                                                            ; Off                               ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                               ; Off           ;
+; Generate Signal Activity File                                                              ; Off                               ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                               ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                               ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                        ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                               ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                               ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                              ; Auto          ;
++--------------------------------------------------------------------------------------------+-----------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;     100.00 % ;
+; Total nodes checked                                 ; 97           ;
+; Total output ports checked                          ; 97           ;
+; Total output ports with complete 1/0-value coverage ; 97           ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                        ;
++------------------------+------------------------+------------------+
+; Node Name              ; Output Port Name       ; Output Port Type ;
++------------------------+------------------------+------------------+
+; |bit_op|o_bit_and~0    ; |bit_op|o_bit_and~0    ; out0             ;
+; |bit_op|o_bit_or~0     ; |bit_op|o_bit_or~0     ; out0             ;
+; |bit_op|o_bit_xor~0    ; |bit_op|o_bit_xor~0    ; out0             ;
+; |bit_op|o_bit_xnor~0   ; |bit_op|o_bit_xnor~0   ; out0             ;
+; |bit_op|o_bits_and~0   ; |bit_op|o_bits_and~0   ; out0             ;
+; |bit_op|o_bits_and~1   ; |bit_op|o_bits_and~1   ; out0             ;
+; |bit_op|o_bits_and~2   ; |bit_op|o_bits_and~2   ; out0             ;
+; |bit_op|o_bits_and~3   ; |bit_op|o_bits_and~3   ; out0             ;
+; |bit_op|o_bits_and~4   ; |bit_op|o_bits_and~4   ; out0             ;
+; |bit_op|o_bits_and~5   ; |bit_op|o_bits_and~5   ; out0             ;
+; |bit_op|o_bits_and~6   ; |bit_op|o_bits_and~6   ; out0             ;
+; |bit_op|o_bits_and~7   ; |bit_op|o_bits_and~7   ; out0             ;
+; |bit_op|o_bits_or~0    ; |bit_op|o_bits_or~0    ; out0             ;
+; |bit_op|o_bits_or~1    ; |bit_op|o_bits_or~1    ; out0             ;
+; |bit_op|o_bits_or~2    ; |bit_op|o_bits_or~2    ; out0             ;
+; |bit_op|o_bits_or~3    ; |bit_op|o_bits_or~3    ; out0             ;
+; |bit_op|o_bits_or~4    ; |bit_op|o_bits_or~4    ; out0             ;
+; |bit_op|o_bits_or~5    ; |bit_op|o_bits_or~5    ; out0             ;
+; |bit_op|o_bits_or~6    ; |bit_op|o_bits_or~6    ; out0             ;
+; |bit_op|o_bits_or~7    ; |bit_op|o_bits_or~7    ; out0             ;
+; |bit_op|o_bits_xor~0   ; |bit_op|o_bits_xor~0   ; out0             ;
+; |bit_op|o_bits_xor~1   ; |bit_op|o_bits_xor~1   ; out0             ;
+; |bit_op|o_bits_xor~2   ; |bit_op|o_bits_xor~2   ; out0             ;
+; |bit_op|o_bits_xor~3   ; |bit_op|o_bits_xor~3   ; out0             ;
+; |bit_op|o_bits_xor~4   ; |bit_op|o_bits_xor~4   ; out0             ;
+; |bit_op|o_bits_xor~5   ; |bit_op|o_bits_xor~5   ; out0             ;
+; |bit_op|o_bits_xor~6   ; |bit_op|o_bits_xor~6   ; out0             ;
+; |bit_op|o_bits_xor~7   ; |bit_op|o_bits_xor~7   ; out0             ;
+; |bit_op|o_bits_xnor~0  ; |bit_op|o_bits_xnor~0  ; out0             ;
+; |bit_op|o_bits_xnor~1  ; |bit_op|o_bits_xnor~1  ; out0             ;
+; |bit_op|o_bits_xnor~2  ; |bit_op|o_bits_xnor~2  ; out0             ;
+; |bit_op|o_bits_xnor~3  ; |bit_op|o_bits_xnor~3  ; out0             ;
+; |bit_op|o_bits_xnor~4  ; |bit_op|o_bits_xnor~4  ; out0             ;
+; |bit_op|o_bits_xnor~5  ; |bit_op|o_bits_xnor~5  ; out0             ;
+; |bit_op|o_bits_xnor~6  ; |bit_op|o_bits_xnor~6  ; out0             ;
+; |bit_op|o_bits_xnor~7  ; |bit_op|o_bits_xnor~7  ; out0             ;
+; |bit_op|i_a[0]         ; |bit_op|i_a[0]         ; out              ;
+; |bit_op|i_a[1]         ; |bit_op|i_a[1]         ; out              ;
+; |bit_op|i_a[2]         ; |bit_op|i_a[2]         ; out              ;
+; |bit_op|i_a[3]         ; |bit_op|i_a[3]         ; out              ;
+; |bit_op|i_a[4]         ; |bit_op|i_a[4]         ; out              ;
+; |bit_op|i_a[5]         ; |bit_op|i_a[5]         ; out              ;
+; |bit_op|i_a[6]         ; |bit_op|i_a[6]         ; out              ;
+; |bit_op|i_a[7]         ; |bit_op|i_a[7]         ; out              ;
+; |bit_op|i_b[0]         ; |bit_op|i_b[0]         ; out              ;
+; |bit_op|i_b[1]         ; |bit_op|i_b[1]         ; out              ;
+; |bit_op|i_b[2]         ; |bit_op|i_b[2]         ; out              ;
+; |bit_op|i_b[3]         ; |bit_op|i_b[3]         ; out              ;
+; |bit_op|i_b[4]         ; |bit_op|i_b[4]         ; out              ;
+; |bit_op|i_b[5]         ; |bit_op|i_b[5]         ; out              ;
+; |bit_op|i_b[6]         ; |bit_op|i_b[6]         ; out              ;
+; |bit_op|i_b[7]         ; |bit_op|i_b[7]         ; out              ;
+; |bit_op|o_bits_not[0]  ; |bit_op|o_bits_not[0]  ; pin_out          ;
+; |bit_op|o_bits_not[1]  ; |bit_op|o_bits_not[1]  ; pin_out          ;
+; |bit_op|o_bits_not[2]  ; |bit_op|o_bits_not[2]  ; pin_out          ;
+; |bit_op|o_bits_not[3]  ; |bit_op|o_bits_not[3]  ; pin_out          ;
+; |bit_op|o_bits_not[4]  ; |bit_op|o_bits_not[4]  ; pin_out          ;
+; |bit_op|o_bits_not[5]  ; |bit_op|o_bits_not[5]  ; pin_out          ;
+; |bit_op|o_bits_not[6]  ; |bit_op|o_bits_not[6]  ; pin_out          ;
+; |bit_op|o_bits_not[7]  ; |bit_op|o_bits_not[7]  ; pin_out          ;
+; |bit_op|o_bits_and[0]  ; |bit_op|o_bits_and[0]  ; pin_out          ;
+; |bit_op|o_bits_and[1]  ; |bit_op|o_bits_and[1]  ; pin_out          ;
+; |bit_op|o_bits_and[2]  ; |bit_op|o_bits_and[2]  ; pin_out          ;
+; |bit_op|o_bits_and[3]  ; |bit_op|o_bits_and[3]  ; pin_out          ;
+; |bit_op|o_bits_and[4]  ; |bit_op|o_bits_and[4]  ; pin_out          ;
+; |bit_op|o_bits_and[5]  ; |bit_op|o_bits_and[5]  ; pin_out          ;
+; |bit_op|o_bits_and[6]  ; |bit_op|o_bits_and[6]  ; pin_out          ;
+; |bit_op|o_bits_and[7]  ; |bit_op|o_bits_and[7]  ; pin_out          ;
+; |bit_op|o_bits_or[0]   ; |bit_op|o_bits_or[0]   ; pin_out          ;
+; |bit_op|o_bits_or[1]   ; |bit_op|o_bits_or[1]   ; pin_out          ;
+; |bit_op|o_bits_or[2]   ; |bit_op|o_bits_or[2]   ; pin_out          ;
+; |bit_op|o_bits_or[3]   ; |bit_op|o_bits_or[3]   ; pin_out          ;
+; |bit_op|o_bits_or[4]   ; |bit_op|o_bits_or[4]   ; pin_out          ;
+; |bit_op|o_bits_or[5]   ; |bit_op|o_bits_or[5]   ; pin_out          ;
+; |bit_op|o_bits_or[6]   ; |bit_op|o_bits_or[6]   ; pin_out          ;
+; |bit_op|o_bits_or[7]   ; |bit_op|o_bits_or[7]   ; pin_out          ;
+; |bit_op|o_bits_xor[0]  ; |bit_op|o_bits_xor[0]  ; pin_out          ;
+; |bit_op|o_bits_xor[1]  ; |bit_op|o_bits_xor[1]  ; pin_out          ;
+; |bit_op|o_bits_xor[2]  ; |bit_op|o_bits_xor[2]  ; pin_out          ;
+; |bit_op|o_bits_xor[3]  ; |bit_op|o_bits_xor[3]  ; pin_out          ;
+; |bit_op|o_bits_xor[4]  ; |bit_op|o_bits_xor[4]  ; pin_out          ;
+; |bit_op|o_bits_xor[5]  ; |bit_op|o_bits_xor[5]  ; pin_out          ;
+; |bit_op|o_bits_xor[6]  ; |bit_op|o_bits_xor[6]  ; pin_out          ;
+; |bit_op|o_bits_xor[7]  ; |bit_op|o_bits_xor[7]  ; pin_out          ;
+; |bit_op|o_bits_xnor[0] ; |bit_op|o_bits_xnor[0] ; pin_out          ;
+; |bit_op|o_bits_xnor[1] ; |bit_op|o_bits_xnor[1] ; pin_out          ;
+; |bit_op|o_bits_xnor[2] ; |bit_op|o_bits_xnor[2] ; pin_out          ;
+; |bit_op|o_bits_xnor[3] ; |bit_op|o_bits_xnor[3] ; pin_out          ;
+; |bit_op|o_bits_xnor[4] ; |bit_op|o_bits_xnor[4] ; pin_out          ;
+; |bit_op|o_bits_xnor[5] ; |bit_op|o_bits_xnor[5] ; pin_out          ;
+; |bit_op|o_bits_xnor[6] ; |bit_op|o_bits_xnor[6] ; pin_out          ;
+; |bit_op|o_bits_xnor[7] ; |bit_op|o_bits_xnor[7] ; pin_out          ;
+; |bit_op|o_bit_not      ; |bit_op|o_bit_not      ; pin_out          ;
+; |bit_op|o_bit_and      ; |bit_op|o_bit_and      ; pin_out          ;
+; |bit_op|o_bit_or       ; |bit_op|o_bit_or       ; pin_out          ;
+; |bit_op|o_bit_xor      ; |bit_op|o_bit_xor      ; pin_out          ;
+; |bit_op|o_bit_xnor     ; |bit_op|o_bit_xnor     ; pin_out          ;
++------------------------+------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------+
+; Missing 1-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+    Info: Processing started: Sat Feb 18 15:43:58 2012
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off bit_op -c bit_op
+Info: Using vector source file "src/simulation/quartus/bit_op.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is     100.00 %
+Info: Number of transitions in simulation is 2635
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 111 megabytes
+    Info: Processing ended: Sat Feb 18 15:44:01 2012
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
+
+

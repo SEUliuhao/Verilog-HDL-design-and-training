@@ -1,0 +1,15 @@
+|s_if
+clk => dout_mtwo~reg0.CLK
+clk => dout_mone~reg0.CLK
+clk => dout_s~reg0.CLK
+din_one => dout_mtwo~reg0.ENA
+din_one => dout_s~reg0.ENA
+din_one => dout_mone~reg0.ENA
+din_two => dout_mtwo~reg0.DATAIN
+din_two => dout_s~reg0.DATAIN
+din_two => dout_mone~reg0.DATAIN
+dout_s <= dout_s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_mone <= dout_mone~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_mtwo <= dout_mtwo~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

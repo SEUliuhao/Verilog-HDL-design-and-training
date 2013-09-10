@@ -1,0 +1,101 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter10\gen_circulation
+vgate_beh
+Ik=_aD=1P19WfOciiI[dS[1
+VFzkU3j;T[hEDcCoToBGic3
+Z0 dH:\fourbook\FB\code\Chapter12\gate_module
+w1325929494
+8H:/fourbook/FB/code/Chapter12/gate_module/src/gate_beh.v
+FH:/fourbook/FB/code/Chapter12/gate_module/src/gate_beh.v
+L0 12
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 HSDmVBR7n_nD7;V0NiFMO0
+!s85 0
+!s101 -O0
+vgate_beh_tb
+!s100 ^o_KZ@@QLCW1B13O4d9jO3
+INeV0Z_>j0<8Z[d>m3j^XY2
+VVb_D3=K@fNjTRoNP>AnS02
+Z4 dH:\fourbook\FB\code\Chapter12\gate_module
+w1325929344
+8H:/fourbook/FB/code/Chapter12/gate_module/src/gate_beh_tb.v
+FH:/fourbook/FB/code/Chapter12/gate_module/src/gate_beh_tb.v
+L0 12
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+vgate_consctruct
+IAVIonoiTI2IoHoCRf1khO3
+V1hP=e3W@efP8lI<]ghfR12
+R4
+w1325516572
+8H:/fourbook/FB/code/Chapter12/gate_module/src/gate_consctruct.v
+FH:/fourbook/FB/code/Chapter12/gate_module/src/gate_consctruct.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 0zTR_[BY^SPVmT3X3Dd>H0
+!s85 0
+!s101 -O0
+vgate_consctruct_tb
+I5n_Z6gbR]JOIlXTkIoa8k3
+Vb:=]AJ][dOU:Ql9U^6VaC1
+R4
+w1325516384
+8H:\fourbook\FB\code\Chapter12\gate_module\src\gate_consctruct_tb.v
+FH:\fourbook\FB\code\Chapter12\gate_module\src\gate_consctruct_tb.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 ogX8:CkHGK[j0TBnZkCgj3
+!s85 0
+!s101 -O0
+vgate_dataflow
+I;JFn^JHXlTCk[2]CN<WZA1
+V:`z6T4JCz2E3<]?Gi[P2J3
+R4
+w1325856092
+8H:/fourbook/FB/code/Chapter12/gate_module/src/gate_dataflow.v
+FH:/fourbook/FB/code/Chapter12/gate_module/src/gate_dataflow.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 0?BlPANc[[PY;OJbe2UOj2
+!s85 0
+!s101 -O0
+vgate_dataflow_tb
+IUR^HNmoVb6BUY2h8C:oQO2
+VB`Ho6dE?AJ1h6D2nzfc^93
+R4
+w1325856730
+8H:/fourbook/FB/code/Chapter12/gate_module/src/gate_dataflow_tb.v
+FH:/fourbook/FB/code/Chapter12/gate_module/src/gate_dataflow_tb.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 JkQkG[UC[^CJR@XBK:8653
+!s85 0
+!s101 -O0

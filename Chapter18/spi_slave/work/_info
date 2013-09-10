@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter15\crc_three
+vspi_slave
+IVf[PA6A9ZGn_:@KV6BTJ92
+Vj53]e?NYAeP]fUNXFakm72
+Z0 dH:\fourbook\FB\code\Chapter18\spi_slave
+w1331980158
+8H:/fourbook/FB/code/Chapter18/spi_slave/src/spi_slave.v
+FH:/fourbook/FB/code/Chapter18/spi_slave/src/spi_slave.v
+L0 12
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 cXFP@Ogc38miZ>Pf0:h293
+!s85 0
+!s101 -O0
+vspi_slave_tb
+!s100 Xa672Hzn]GKMZZ1l97dE[0
+IIATjC^O7cZQ@PF1MVE2PO2
+VF>?RHj83Pbo9[idAHLMW03
+Z4 dH:\fourbook\FB\code\Chapter18\spi_slave
+w1331980614
+8H:/fourbook/FB/code/Chapter18/spi_slave/src/spi_slave_tb.v
+FH:/fourbook/FB/code/Chapter18/spi_slave/src/spi_slave_tb.v
+L0 12
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3

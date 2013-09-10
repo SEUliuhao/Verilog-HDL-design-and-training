@@ -1,0 +1,53 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : seg_display_tb.v
+// FUNCTION        : seg_display.v的测试仿真平台
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》————北京航天航空大学出版社
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module seg_display_tb;
+
+    //定义激励源
+    reg [3 : 0] r_data;
+    reg r_dp;
+    
+    
+        
+    //定义输出信号连线
+    wire [6 : 0] w_seg;
+    wire w_dp;
+    
+    //实例化设计模块，采用端口名称映射方式
+    seg_display  I_seg_display
+        (
+            .i_data(r_data), 
+            .i_dp(r_dp),           
+            .o_seg(w_seg),
+            .o_dp(w_dp)
+        );
+        
+    //产生小数点显示激励信号
+    initial
+    begin
+            r_dp = 1'b0; 
+            repeat(8)
+            #4  r_dp = ~r_dp;    
+    end
+    
+        //产生7段码显示激励信号
+    initial
+    begin
+            r_data = 4'd0; 
+            repeat(16)
+            #2  r_data = r_data + 4'd1;             
+    end
+      
+endmodule
+// END OF seg_display_tb.v FILE ***************************************************
+
+
+

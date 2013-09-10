@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Feb 01 22:08:03 2012
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Full Version
+Revision Name : crc_code_one
+Top-level Entity Name : crc_code_one
+Family : Cyclone II
+Total logic elements : 16
+    Total combinational functions : 15
+    Dedicated logic registers : 11
+Total registers : 11
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter12\seg_display
+vmux4to1
+IPnQjI27Yah?;ZfnjbCFN`0
+VT?@OcEf0lXhlPi;jTTKlZ2
+Z0 dH:\fourbook\FB\code\Chapter12\mux4to1
+w1325991398
+8H:/fourbook/FB/code/Chapter12/mux4to1/src/mux4to1.v
+FH:/fourbook/FB/code/Chapter12/mux4to1/src/mux4to1.v
+L0 12
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-work work -nocovercells -O0
+Z3 !s102 -nocovercells
+!s100 DcW2]ajRbE^zLM;m]J99c1
+!s85 0
+!s101 -O0
+vmux4to1_tb
+!s100 >m08oZH97SH6S9n=kD[6O0
+IP?OUVHZZVPZH5g1TYYoK`1
+VkRhiB_1iQomACjMWiO]gl2
+Z4 dH:\fourbook\FB\code\Chapter12\mux4to1
+w1325991682
+8H:/fourbook/FB/code/Chapter12/mux4to1/src/mux4to1_tb.v
+FH:/fourbook/FB/code/Chapter12/mux4to1/src/mux4to1_tb.v
+L0 12
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R3
+R2

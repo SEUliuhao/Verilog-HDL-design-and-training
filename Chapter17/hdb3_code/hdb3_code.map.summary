@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Mar 23 22:34:41 2012
+Quartus II 32-bit Version : 11.1 Build 259 01/25/2012 SP 2 SJ Full Version
+Revision Name : hdb3_code
+Top-level Entity Name : hdb3_code
+Family : Cyclone II
+Total logic elements : 26
+    Total combinational functions : 9
+    Dedicated logic registers : 25
+Total registers : 25
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

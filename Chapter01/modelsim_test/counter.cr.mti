@@ -1,0 +1,15 @@
+E:/FB/code/Chapter01/counter.v {1 {vlog -work work -nocovercells E:/FB/code/Chapter01/counter.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} E:/FB/code/Chapter01/counter_tb.vt {1 {vlog -work work -nocovercells E:/FB/code/Chapter01/counter_tb.vt
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}}

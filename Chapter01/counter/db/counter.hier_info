@@ -1,0 +1,21 @@
+|counter
+I_rst_n => O_cnt[0]~reg0.ACLR
+I_rst_n => O_cnt[1]~reg0.ACLR
+I_rst_n => O_cnt[2]~reg0.ACLR
+I_rst_n => O_cnt[3]~reg0.ACLR
+I_rst_n => O_cnt[4]~reg0.ACLR
+I_rst_n => O_cnt[5]~reg0.ACLR
+I_rst_n => O_cnt[6]~reg0.ACLR
+I_rst_n => O_cnt[7]~reg0.ACLR
+I_rst_n => O_cout~reg0.ACLR
+I_clk => O_cnt[0]~reg0.CLK
+I_clk => O_cnt[1]~reg0.CLK
+I_clk => O_cnt[2]~reg0.CLK
+I_clk => O_cnt[3]~reg0.CLK
+I_clk => O_cnt[4]~reg0.CLK
+I_clk => O_cnt[5]~reg0.CLK
+I_clk => O_cnt[6]~reg0.CLK
+I_clk => O_cnt[7]~reg0.CLK
+I_clk => O_cout~reg0.CLK
+
+

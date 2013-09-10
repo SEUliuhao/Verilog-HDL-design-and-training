@@ -1,0 +1,52 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : display_write_task.v
+// FUNCTION        : 显示与写任务应用
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module display_write_task();
+
+    reg [7 : 0] r_data;
+    reg [15*8 : 0] r_str;
+    
+    initial
+    begin
+        r_data = 8'd100;
+        r_str = "I love Verilog!";
+    end
+     
+    initial
+    begin
+        $display(r_data);
+        $displayb(r_data);
+        $displayo(r_data);
+        $displayh(r_data);
+        $display("r_data = %o", r_data);
+        $displayb("r_data = %d", r_data);
+        $displayo("r_data = %h", r_data);
+        $displayh("r_data = %b", r_data);
+        
+        $write(r_data);
+        $writeb(r_data);
+        $writeo(r_data);
+        $writeh(r_data);
+        $write("r_data = %o", r_data);
+        $writeb("r_data = %d", r_data);
+        $writeo("r_data = %h", r_data);
+        $writeh("r_data = %b \n", r_data);
+        
+        $display("r_str = %s \n, \t, \\, \", \ooo, %%", r_str, 200);
+        $write("r_str = %s \n, \t, \\, \", \ooo, %%", r_str, 200);
+    end   
+                      
+endmodule
+// END OF display_write_task.v FILE ***************************************************
+
+
+  
+

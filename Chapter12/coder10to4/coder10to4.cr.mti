@@ -1,0 +1,8 @@
+H:/fourbook/FB/code/Chapter12/coder10to4/src/coder10to4_tb.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter12/coder10to4/src/coder10to4_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module coder10to4_tb
+
+Top level modules:
+	coder10to4_tb
+
+} {} {}}

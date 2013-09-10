@@ -1,0 +1,4 @@
+fmonitor: simulation_time=   0, r_data = 64
+fmonitor: simulation_time=  10, r_data = 96
+fmonitor: simulation_time=  30, r_data = 50
+fmonitor: simulation_time=  60, r_data = 5a

@@ -1,0 +1,15 @@
+H:/fourbook/FB/code/Chapter09/no_block_assign_two/src/no_block_assign_two.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter09/no_block_assign_two/src/no_block_assign_two.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module no_block_assign_two
+
+Top level modules:
+	no_block_assign_two
+
+} {} {}} H:/fourbook/FB/code/Chapter09/no_block_assign_two/src/no_block_assign_two_tb.vt {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter09/no_block_assign_two/src/no_block_assign_two_tb.vt
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module no_block_assign_two_tb
+
+Top level modules:
+	no_block_assign_two_tb
+
+} {} {}}

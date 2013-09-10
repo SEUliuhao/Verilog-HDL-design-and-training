@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter13\d_latch
+vjk_trig
+IoUZDMWH59YIQ9nXi2gm^@3
+V;dBGXlIe0NU9TL7P]g2]Y0
+Z0 dH:\fourbook\FB\code\Chapter13\jk_trig
+w1326033006
+8H:/fourbook/FB/code/Chapter13/jk_trig/src/jk_trig.v
+FH:/fourbook/FB/code/Chapter13/jk_trig/src/jk_trig.v
+L0 12
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-work work -nocovercells -O0
+Z3 !s102 -nocovercells
+!s100 86=WB@dPP:Z605dgj>;DZ2
+!s85 0
+!s101 -O0
+vjk_trig_tb
+!s100 e<W0ceWooD]EWXOVQL2273
+IKSSPCJQZ^]E?2PFWHKO=H3
+V@nKTQT`AE_VlcLlg4QQaD1
+Z4 dH:\fourbook\FB\code\Chapter13\jk_trig
+w1326033332
+8H:/fourbook/FB/code/Chapter13/jk_trig/src/jk_trig_tb.v
+FH:/fourbook/FB/code/Chapter13/jk_trig/src/jk_trig_tb.v
+L0 12
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R3
+R2

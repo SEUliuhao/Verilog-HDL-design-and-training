@@ -1,0 +1,14 @@
+module half_adder(
+    input I_a,
+    input I_b,
+    
+    output O_sum,
+    output O_cout
+);
+
+    assign O_sum = I_a ^ I_b;
+    assign O_cout = I_a & I_b;
+    
+endmodule
+
+

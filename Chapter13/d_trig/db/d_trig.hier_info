@@ -1,0 +1,8 @@
+|d_trig
+i_clk => r_q.CLK
+i_clr => r_q.ACLR
+i_enable => r_q.ENA
+i_d => r_q.DATAIN
+o_q <= r_q.DB_MAX_OUTPUT_PORT_TYPE
+
+

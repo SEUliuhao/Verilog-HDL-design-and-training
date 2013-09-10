@@ -1,0 +1,16 @@
+|p_counter
+i_reset_n => r_cnt[0].ACLR
+i_reset_n => r_cnt[1].ACLR
+i_reset_n => r_cnt[2].ACLR
+i_reset_n => r_cnt[3].ACLR
+i_clk => r_cnt[0].CLK
+i_clk => r_cnt[1].CLK
+i_clk => r_cnt[2].CLK
+i_clk => r_cnt[3].CLK
+o_cout <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+o_cnt[0] <= r_cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_cnt[1] <= r_cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_cnt[2] <= r_cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_cnt[3] <= r_cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

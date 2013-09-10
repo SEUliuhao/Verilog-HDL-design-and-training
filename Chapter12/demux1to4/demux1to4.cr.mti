@@ -1,0 +1,15 @@
+H:/fourbook/FB/code/Chapter12/demux1to4/src/demux1to4.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter12/demux1to4/src/demux1to4.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module demux1to4
+
+Top level modules:
+	demux1to4
+
+} {} {}} H:/fourbook/FB/code/Chapter12/demux1to4/src/demux1to4_tb.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter12/demux1to4/src/demux1to4_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module demux1to4_tb
+
+Top level modules:
+	demux1to4_tb
+
+} {} {}}

@@ -1,0 +1,50 @@
+# Reading D:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do counter_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+H:/fourbook/FB/code/Chapter01/counter/src {H:/fourbook/FB/code/Chapter01/counter/src/counter.v}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# 
+# vlog -vlog01compat -work work +incdir+H:/fourbook/FB/code/Chapter01/counter/simulation/modelsim {H:/fourbook/FB/code/Chapter01/counter/simulation/modelsim/counter_tb.vt}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module counter_tb
+# 
+# Top level modules:
+# 	counter_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" counter_tb.vt
+# 
+# add wave *
+# view structure
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: No Design Loaded!
+# Error in macro ./counter_run_msim_rtl_verilog.do line 17
+# No Design Loaded!
+#     while executing
+# "run -all"
+vsim work.counter_tb
+# vsim work.counter_tb 
+# Loading work.counter_tb
+# Loading work.counter
+# ** Warning: (vsim-3009) [TSCALE] - Module 'counter' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /counter_tb/I1_counter
+add wave \
+{sim:/counter_tb/rst_n } \
+{sim:/counter_tb/clk } \
+{sim:/counter_tb/cnt } \
+{sim:/counter_tb/cout } 
+run

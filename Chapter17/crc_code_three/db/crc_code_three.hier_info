@@ -1,0 +1,14 @@
+|crc_code_three
+i_data[0] => r_crc.IN0
+i_data[0] => r_crc.IN1
+i_data[0] => r_crc.IN0
+i_data[1] => r_crc.IN0
+i_data[1] => r_crc.IN1
+i_data[2] => r_crc.IN1
+i_data[2] => r_crc.IN1
+o_crc[0] <= r_crc.DB_MAX_OUTPUT_PORT_TYPE
+o_crc[1] <= r_crc.DB_MAX_OUTPUT_PORT_TYPE
+o_crc[2] <= r_crc.DB_MAX_OUTPUT_PORT_TYPE
+o_crc[3] <= r_crc.DB_MAX_OUTPUT_PORT_TYPE
+
+

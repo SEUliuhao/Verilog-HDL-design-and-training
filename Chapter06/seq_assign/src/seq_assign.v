@@ -1,0 +1,41 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : seq_assign.v
+// FUNCTION        : 顺序赋值语句的应用举例
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module seq_assign( 
+    input din_one,
+    input din_two,
+    
+    output reg db_one, //阻塞顺序赋值输出
+    output reg db_two, //阻塞顺序赋值输出
+    output reg d_one,  //非阻塞顺序赋值输出
+    output reg d_two   //非阻塞顺序赋值输出
+    
+    );    
+    
+    //阻塞顺序赋值语句应用
+    always @(din_one, din_two)
+    begin
+        db_one = din_one ^ din_two;
+        db_two = din_one & din_two;
+    end
+    
+    //非阻塞顺序赋值语句应用
+    always @(din_one, din_two)
+    begin
+        d_one = din_one ^ din_two;
+        d_two = din_one & din_two;
+    end
+        
+endmodule
+// END OF seq_assign.v FILE ***************************************************
+
+    
+   

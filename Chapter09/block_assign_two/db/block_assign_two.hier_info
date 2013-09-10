@@ -1,0 +1,8 @@
+|block_assign_two
+a => temp1.IN0
+b => temp1.IN1
+c => temp2.IN0
+d => temp2.IN1
+y <= y_r~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

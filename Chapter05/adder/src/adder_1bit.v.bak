@@ -1,0 +1,28 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : adder_1bit.v
+// FUNCTION        : 1位全加器
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+
+module adder_1bit(
+    input din_one, //第一个加数
+    input din_two, //第二个加数
+    input cin,     //进位输入
+    
+    output sum,    //和输出
+    output cout    //进位输出
+    );
+    
+
+//利用连续赋值语句实现全加操作    
+   assign sum = din_one ^ din_two ^ cin;
+   assign cout = (din_one & din_two) | (din_two & cin) | (din_one & cin);    
+endmodule
+// END OF adder_1bit.v FILE ***************************************************
+
+    
+   

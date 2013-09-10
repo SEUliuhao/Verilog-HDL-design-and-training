@@ -1,0 +1,8 @@
+H:/fourbook/FB/code/Chapter18/spi_master/src/spi_slave.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter18/spi_master/src/spi_slave.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module spi_slave
+
+Top level modules:
+	spi_slave
+
+} {} {}}

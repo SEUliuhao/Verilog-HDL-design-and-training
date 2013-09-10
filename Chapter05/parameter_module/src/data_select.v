@@ -1,0 +1,30 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : data_select.v
+// FUNCTION        : 参数化的数据选择器
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+
+
+module data_select
+    #(
+        parameter DATA_WIDTH = 4     
+    )
+    (
+        input [DATA_WIDTH-1 : 0] data_one,
+        input [DATA_WIDTH-1 : 0] data_two,
+        input sel,
+        
+        output [DATA_WIDTH-1 : 0] data_out
+    );
+    
+    assign data_out = sel? data_two : data_one;
+    
+endmodule
+// END OF data_select.v FILE ***************************************************
+
+    
+   

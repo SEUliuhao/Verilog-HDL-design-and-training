@@ -1,0 +1,95 @@
+|adder_4bit
+din_one[0] => din_one[0]~3.IN1
+din_one[1] => din_one[1]~2.IN1
+din_one[2] => din_one[2]~1.IN1
+din_one[3] => din_one[3]~0.IN1
+din_two[0] => din_two[0]~3.IN1
+din_two[1] => din_two[1]~2.IN1
+din_two[2] => din_two[2]~1.IN1
+din_two[3] => din_two[3]~0.IN1
+cin => cin~0.IN1
+sum[0] <= adder_2bit:U1_low_bit.sum
+sum[1] <= adder_2bit:U1_low_bit.sum
+sum[2] <= adder_2bit:U2_high_bit.sum
+sum[3] <= adder_2bit:U2_high_bit.sum
+cout <= adder_2bit:U2_high_bit.cout
+
+
+|adder_4bit|adder_2bit:U1_low_bit
+din_one[0] => din_one[0]~1.IN1
+din_one[1] => din_one[1]~0.IN1
+din_two[0] => din_two[0]~1.IN1
+din_two[1] => din_two[1]~0.IN1
+cin => cin~0.IN1
+sum[0] <= adder_1bit:U1_low_bit.sum
+sum[1] <= adder_1bit:U2_high_bit.sum
+cout <= adder_1bit:U2_high_bit.cout
+
+
+|adder_4bit|adder_2bit:U1_low_bit|adder_1bit:U1_low_bit
+din_one => sum~0.IN0
+din_one => cout~0.IN0
+din_one => cout~3.IN0
+din_two => sum~0.IN1
+din_two => cout~0.IN1
+din_two => cout~1.IN0
+cin => sum~1.IN1
+cin => cout~1.IN1
+cin => cout~3.IN1
+sum <= sum~1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_4bit|adder_2bit:U1_low_bit|adder_1bit:U2_high_bit
+din_one => sum~0.IN0
+din_one => cout~0.IN0
+din_one => cout~3.IN0
+din_two => sum~0.IN1
+din_two => cout~0.IN1
+din_two => cout~1.IN0
+cin => sum~1.IN1
+cin => cout~1.IN1
+cin => cout~3.IN1
+sum <= sum~1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_4bit|adder_2bit:U2_high_bit
+din_one[0] => din_one[0]~1.IN1
+din_one[1] => din_one[1]~0.IN1
+din_two[0] => din_two[0]~1.IN1
+din_two[1] => din_two[1]~0.IN1
+cin => cin~0.IN1
+sum[0] <= adder_1bit:U1_low_bit.sum
+sum[1] <= adder_1bit:U2_high_bit.sum
+cout <= adder_1bit:U2_high_bit.cout
+
+
+|adder_4bit|adder_2bit:U2_high_bit|adder_1bit:U1_low_bit
+din_one => sum~0.IN0
+din_one => cout~0.IN0
+din_one => cout~3.IN0
+din_two => sum~0.IN1
+din_two => cout~0.IN1
+din_two => cout~1.IN0
+cin => sum~1.IN1
+cin => cout~1.IN1
+cin => cout~3.IN1
+sum <= sum~1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_4bit|adder_2bit:U2_high_bit|adder_1bit:U2_high_bit
+din_one => sum~0.IN0
+din_one => cout~0.IN0
+din_one => cout~3.IN0
+din_two => sum~0.IN1
+din_two => cout~0.IN1
+din_two => cout~1.IN0
+cin => sum~1.IN1
+cin => cout~1.IN1
+cin => cout~3.IN1
+sum <= sum~1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~4.DB_MAX_OUTPUT_PORT_TYPE
+
+

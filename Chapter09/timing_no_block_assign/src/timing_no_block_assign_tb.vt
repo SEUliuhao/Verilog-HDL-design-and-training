@@ -1,0 +1,43 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : timing_no_block_assign_tb.vt
+// FUNCTION        : 阻塞赋值应用示例三测试平台
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+   
+   
+`timescale 1ns/1ns
+module timing_no_block_assign_tb();
+
+    reg clk;
+    reg a;
+    wire y;
+    
+    timing_no_block_assign I1_timing_no_block_assign
+        (
+            .clk(clk),
+            .a(a),            
+            .y(y)
+        );
+    
+    always
+        #1 clk = ~clk;
+        
+        
+    initial
+    begin
+            clk = 1;
+            a = 1;
+       #2   a = 0;
+       #2   a = 1;
+       #2   a = 1;
+       #2   a = 0;
+    end    
+endmodule
+  
+// END OF timing_block_assign_tb.v FILE ***************************************************
+
+ 

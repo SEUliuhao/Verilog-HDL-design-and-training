@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter09\block_assign_three
+vtiming_block_assign
+IRInX?<YM01niD^j3?SVL01
+V@T<i3Re^g559oe[D^e9OA0
+Z0 dH:\fourbook\FB\code\Chapter09\timing_block_assign
+w1323782550
+8H:/fourbook/FB/code/Chapter09/timing_block_assign/src/timing_block_assign.v
+FH:/fourbook/FB/code/Chapter09/timing_block_assign/src/timing_block_assign.v
+L0 11
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-work work -nocovercells -O0
+Z3 !s102 -nocovercells
+!s100 Z8^^`6Yc2:9kzK>n3d?6^2
+!s85 0
+!s101 -O0
+vtiming_block_assign_tb
+!s100 oY1_XVzDz9VRhTT7Vh]Zb2
+IW4Z>6W]iH?Ia43jOMRQ^N1
+Vc@[nl7CITKV1XWoVE0D>_2
+Z4 dH:\fourbook\FB\code\Chapter09\timing_block_assign
+w1323783014
+8H:/fourbook/FB/code/Chapter09/timing_block_assign/src/timing_block_assign_tb.vt
+FH:/fourbook/FB/code/Chapter09/timing_block_assign/src/timing_block_assign_tb.vt
+L0 13
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R3
+R2

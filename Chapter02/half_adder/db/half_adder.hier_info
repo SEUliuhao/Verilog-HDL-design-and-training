@@ -1,0 +1,9 @@
+|half_adder
+I_a => O_sum.IN0
+I_a => O_cout.IN0
+I_b => O_sum.IN1
+I_b => O_cout.IN1
+O_sum <= O_sum.DB_MAX_OUTPUT_PORT_TYPE
+O_cout <= O_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

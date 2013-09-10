@@ -1,0 +1,17 @@
+|decoder4to10
+i_data[0] => Decoder0.IN3
+i_data[1] => Decoder0.IN2
+i_data[2] => Decoder0.IN1
+i_data[3] => Decoder0.IN0
+o_decode[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[7] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[8] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+o_decode[9] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

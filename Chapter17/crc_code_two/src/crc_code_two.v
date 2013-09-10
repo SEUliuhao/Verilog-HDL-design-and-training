@@ -1,0 +1,73 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : crc_code_two.v
+// FUNCTION        : CRC编码的第二种方式
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》————北京航空航天大学出版社
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module crc_code_two
+    (
+        input i_reset_n, //异位复位信号，低电平有效
+        input i_clk, //时钟能信号
+        input i_data,
+        output o_crc,
+        output o_crc_done    
+    );
+    
+    parameter GPE = 5'b10111;
+    //定义输出信号o_data的缓存
+    reg r_crc;
+    reg [2 : 0] r_cnt;
+    reg [3 : 0] r_crc_shift;
+    reg r_crd_done;
+    
+    assign o_crc = r_crc;
+    assign o_crc_done = r_crd_done;
+    
+    always @(posedge i_clk, negedge i_reset_n) 
+    begin
+        if(1'b0 == i_reset_n)
+        begin
+            r_crc_shift <= 7'b0;
+            r_cnt <= 3'b0;
+            r_crc <= 1'b0;
+            r_crd_done <= 1'b0;
+        end
+        else
+        begin
+            if(3'd6 == r_cnt)
+            begin
+                r_crc_shift <= {1'b0, r_crc_shift[3 : 1]};
+                r_cnt <= 3'b0;
+                r_crc <= r_crc_shift[0];
+                r_crd_done <= 1'b1;
+            end
+            else if(3'd3 > r_cnt)
+            begin
+                r_crc <= i_data;
+                r_crc_shift[3] <= i_data ^ r_crc_shift[0];
+                r_crc_shift[3] <= r_crc_shift[3] ^ i_data ^ r_crc_shift[0];
+                r_crc_shift[3] <= r_crc_shift[2] ^ i_data ^ r_crc_shift[0];
+                r_crc_shift[3] <= r_crc_shift[1];
+                r_cnt <= r_cnt + 3'b1;
+                r_crd_done <= 1'b0;
+            end
+            else
+            begin
+                r_crc_shift <= {1'b0, r_crc_shift[3 : 1]};
+                r_crc <= r_crc_shift[0]; 
+                r_cnt <= r_cnt + 3'b1;
+                r_crd_done <= 1'b0;
+            end                 
+        end
+	end
+	    
+endmodule
+// END OF crc_code_two.v FILE ***************************************************
+
+
+

@@ -1,0 +1,9 @@
+|gate_beh
+i_a => r_and_o.IN0
+i_b => r_and_o.IN1
+i_c => r_or1_o.IN0
+i_d => r_or1_o.IN1
+i_e => r_y.IN1
+o_y <= r_y.DB_MAX_OUTPUT_PORT_TYPE
+
+

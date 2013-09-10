@@ -1,0 +1,112 @@
+Flow report for clk_div
+Tue Jan 10 22:10:49 2012
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------------+
+; Flow Summary                                                                       ;
++------------------------------------+-----------------------------------------------+
+; Flow Status                        ; Successful - Tue Jan 10 22:10:49 2012         ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
+; Revision Name                      ; clk_div                                       ;
+; Top-level Entity Name              ; clk_6_div                                     ;
+; Family                             ; Cyclone II                                    ;
+; Device                             ; EP2C8Q208C8                                   ;
+; Timing Models                      ; Final                                         ;
+; Met timing requirements            ; N/A                                           ;
+; Total logic elements               ; 3                                             ;
+;     Total combinational functions  ; 3                                             ;
+;     Dedicated logic registers      ; 3                                             ;
+; Total registers                    ; 3                                             ;
+; Total pins                         ; 3                                             ;
+; Total virtual pins                 ; 0                                             ;
+; Total memory bits                  ; 0                                             ;
+; Embedded Multiplier 9-bit elements ; 0                                             ;
+; Total PLLs                         ; 0                                             ;
++------------------------------------+-----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/10/2012 22:10:45 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; clk_div             ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                 ;
++------------------------------------+------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                        ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 963365942615.132620464207540 ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                           ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                            ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                     ; --            ; clk_6_div   ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                       ; --            ; clk_6_div   ; Top            ;
+; TOP_LEVEL_ENTITY                   ; clk_6_div                    ; clk_div       ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                          ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 168 MB              ; 00:00:02                           ;
+; Total                ; 00:00:08     ; --                      ; --                  ; 00:00:02                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; flanix           ; Windows XP ; 5.1        ; i1586          ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off clk_div -c clk_div
+
+
+

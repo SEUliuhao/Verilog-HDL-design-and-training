@@ -1,0 +1,10 @@
+|clk_6_div
+i_reset_n => r_clk.ACLR
+i_reset_n => r_cnt[0].ACLR
+i_reset_n => r_cnt[1].ACLR
+i_clk => r_clk.CLK
+i_clk => r_cnt[0].CLK
+i_clk => r_cnt[1].CLK
+o_clk <= r_clk.DB_MAX_OUTPUT_PORT_TYPE
+
+

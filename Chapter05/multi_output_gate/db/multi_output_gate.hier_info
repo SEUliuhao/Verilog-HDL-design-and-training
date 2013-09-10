@@ -1,0 +1,13 @@
+|multi_output_gate
+din => U2_buf.DATAIN
+din => d_not_one.DATAIN
+din => d_not_three.DATAIN
+din => d_not_two.DATAIN
+d_not_one <= din.DB_MAX_OUTPUT_PORT_TYPE
+d_not_two <= din.DB_MAX_OUTPUT_PORT_TYPE
+d_not_three <= din.DB_MAX_OUTPUT_PORT_TYPE
+d_buf_one <= U2_buf.DB_MAX_OUTPUT_PORT_TYPE
+d_buf_two <= U2_buf.DB_MAX_OUTPUT_PORT_TYPE
+d_buf_three <= U2_buf.DB_MAX_OUTPUT_PORT_TYPE
+
+

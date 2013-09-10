@@ -1,0 +1,61 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : key_debounce.v
+// FUNCTION        : 按键去抖
+//                    _  _   _  _   _  _  
+//                   |_||_|_|_||_|_|_||_|
+//                   |_||_| |_||_| |_||_| 
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》————北京航天航空大学出版社
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module key_debounce
+    (
+        input i_reset_n, //异位复位信号，低电平有效
+        input i_clk, //时钟能信号
+        input i_key, //周期为0.5s的时钟，用于闪烁秒前的横杠
+        output o_key
+
+        
+    );
+    
+    //定义输出信号o_data的缓存
+    reg r_key;
+    reg r_key_1buf, r_key_2buf;
+    
+    always @(posedge i_clk, negedge i_reset_n) 
+    begin
+        if(1'b0 == i_reset_n)
+        begin
+            r_key_1buf <= 1'b0;
+            r_key_2buf <= 1'b0;
+        end
+        else
+        begin
+            r_key_1buf <= i_key;
+            r_key_2buf <= r_key_1buf;
+        end
+	end
+	
+	always @(posedge i_clk, negedge i_reset_n) 
+    begin
+        if(1'b0 == i_reset_n)
+        begin
+            r_key <= 1'b0;
+        end
+        else
+        begin
+            if(1'b1 == r_key_1buf ~^ r_key_2buf)
+                r_key <= r_key_1buf;
+        end
+	end
+	
+    
+endmodule
+// END OF key_debounce.v FILE ***************************************************
+
+
+

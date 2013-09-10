@@ -1,0 +1,15 @@
+|data_encrypt
+i_rst_n => r_shift[0].ACLR
+i_rst_n => r_shift[1].ACLR
+i_rst_n => r_shift[2].ACLR
+i_rst_n => r_shift[3].ACLR
+i_rst_n => r_shift[4].ACLR
+i_clk => r_shift[0].CLK
+i_clk => r_shift[1].CLK
+i_clk => r_shift[2].CLK
+i_clk => r_shift[3].CLK
+i_clk => r_shift[4].CLK
+i_data => r_shift.IN1
+o_code <= r_shift[4].DB_MAX_OUTPUT_PORT_TYPE
+
+

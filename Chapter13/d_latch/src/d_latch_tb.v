@@ -1,0 +1,50 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : d_latch_tb.v
+// FUNCTION        : d_latch.v的测试仿真平台
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》————北京航天航空大学出版社
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module d_latch_tb;
+
+    //定义激励源
+    reg r_enable;
+    reg r_d;
+    
+    
+        
+    //定义输出信号连线
+    wire w_q;
+    
+    //实例化设计模块，采用端口名称映射方式
+    d_latch  I_d_latch
+        (
+            .i_enable(r_enable),   
+            .i_d(r_d),
+            .o_q(w_q)
+        );
+        
+    //产生时钟激励信号
+    initial
+    begin
+            r_enable = 1'b0;    
+            forever
+               #100 r_enable = ~r_enable;
+    end
+      
+    initial
+    begin
+            r_d = 1'b0; 
+        forever
+            #15    r_d = ~r_d;
+    end
+endmodule
+
+// END OF d_latch_tb.v FILE ***************************************************
+
+
+

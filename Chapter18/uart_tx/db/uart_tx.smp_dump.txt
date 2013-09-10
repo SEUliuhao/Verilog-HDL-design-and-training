@@ -1,0 +1,6 @@
+
+State Machine - |uart_tx|r_state
+Name r_state.IDLE r_state.SEND_DONE r_state.SEND_DATA 
+r_state.IDLE 0 0 0 
+r_state.SEND_DATA 1 0 1 
+r_state.SEND_DONE 1 1 0 

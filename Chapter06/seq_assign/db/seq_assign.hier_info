@@ -1,0 +1,15 @@
+|seq_assign
+din_one => db_one~0.IN0
+din_one => db_two~0.IN0
+din_one => d_one~0.IN0
+din_one => d_two~0.IN0
+din_two => db_one~0.IN1
+din_two => db_two~0.IN1
+din_two => d_one~0.IN1
+din_two => d_two~0.IN1
+db_one <= db_one~0.DB_MAX_OUTPUT_PORT_TYPE
+db_two <= db_two~0.DB_MAX_OUTPUT_PORT_TYPE
+d_one <= d_one~0.DB_MAX_OUTPUT_PORT_TYPE
+d_two <= d_two~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dD:\altera\91\modelsim_ase\examples
+vcounter
+IoabOLkdH[H<23IH]WSKiQ0
+Vn4QT`J:R?6_]@KNz[J2AS3
+Z0 dE:\FB\code\Chapter01
+w1317912276
+8E:/FB/code/Chapter01/counter.v
+FE:/FB/code/Chapter01/counter.v
+L0 11
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-work work -nocovercells -O0
+!s100 HAB=olh@LH5=4D]_zJ?bD2
+!s85 0
+!s101 -O0
+Z3 !s102 -nocovercells
+vcounter_tb
+!s100 RnmoJ0m[BV`[aUakB:8J43
+IL:><SJU]Q4<kAFUAY[Ggg3
+VN6X[[7nWg]oz4[ZCKXDXe0
+Z4 dE:\FB\code\Chapter01
+w1317953893
+8E:/FB/code/Chapter01/counter_tb.vt
+FE:/FB/code/Chapter01/counter_tb.vt
+L0 13
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R3
+R2

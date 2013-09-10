@@ -1,0 +1,27 @@
+|multi_input_gate
+da => U1_and.IN0
+da => U2_nand.IN0
+da => U1_or.IN0
+da => U2_nor.IN0
+da => U1_xor.IN0
+da => U2_xnor.IN0
+db => U1_and.IN1
+db => U2_nand.IN1
+db => U1_or.IN1
+db => U2_nor.IN1
+db => U1_xor.IN1
+db => U2_xnor.IN1
+dc => U1_and.IN2
+dc => U2_nand.IN2
+dc => U1_or.IN2
+dc => U2_nor.IN2
+dc => U1_xor.IN2
+dc => U2_xnor.IN2
+d_and <= U1_and.DB_MAX_OUTPUT_PORT_TYPE
+d_nand <= U2_nand.DB_MAX_OUTPUT_PORT_TYPE
+d_or <= U1_or.DB_MAX_OUTPUT_PORT_TYPE
+d_nor <= U2_nor.DB_MAX_OUTPUT_PORT_TYPE
+d_xor <= U1_xor.DB_MAX_OUTPUT_PORT_TYPE
+d_xnor <= U2_xnor.DB_MAX_OUTPUT_PORT_TYPE
+
+

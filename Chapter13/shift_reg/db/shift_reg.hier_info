@@ -1,0 +1,21 @@
+|shift_reg
+i_clk => r_data[0].CLK
+i_clk => r_data[1].CLK
+i_clk => r_data[2].CLK
+i_clk => r_data[3].CLK
+i_clk => r_data[4].CLK
+i_clk => r_data[5].CLK
+i_clk => r_data[6].CLK
+i_clk => r_data[7].CLK
+i_d => r_data[0].DATAIN
+o_q <= r_data[7].DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= r_data[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= r_data[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= r_data[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= r_data[3].DB_MAX_OUTPUT_PORT_TYPE
+o_data[4] <= r_data[4].DB_MAX_OUTPUT_PORT_TYPE
+o_data[5] <= r_data[5].DB_MAX_OUTPUT_PORT_TYPE
+o_data[6] <= r_data[6].DB_MAX_OUTPUT_PORT_TYPE
+o_data[7] <= r_data[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

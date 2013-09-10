@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\fourbook\FB\code\Chapter01\counter\simulation\modelsim
+vcounter
+IGm:8ez;e[5E43_UBFL?SL2
+Vn4QT`J:R?6_]@KNz[J2AS3
+w1318513328
+8H:/fourbook/FB/code/Chapter01/counter/src/counter.v
+FH:/fourbook/FB/code/Chapter01/counter/src/counter.v
+L0 11
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-vlog01compat -work work -O0
+!s100 HAB=olh@LH5=4D]_zJ?bD2
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+H:/fourbook/FB/code/Chapter01/counter/src -O0
+vcounter_tb
+!s100 iHQGgd1N0lUI2k3_9g^C[0
+I=nKmbAH@<UR:fzSU<hE^M0
+VN6X[[7nWg]oz4[ZCKXDXe0
+w1318513376
+8H:/fourbook/FB/code/Chapter01/counter/simulation/modelsim/counter_tb.vt
+FH:/fourbook/FB/code/Chapter01/counter/simulation/modelsim/counter_tb.vt
+L0 12
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+!s92 -vlog01compat -work work +incdir+H:/fourbook/FB/code/Chapter01/counter/simulation/modelsim -O0

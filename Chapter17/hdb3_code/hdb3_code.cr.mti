@@ -1,0 +1,29 @@
+H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_plug_b.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_plug_b.v
+Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+-- Compiling module hdb3_plug_b
+
+Top level modules:
+	hdb3_plug_b
+
+} {} {}} H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_plug_v.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_plug_v.v
+Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+-- Compiling module hdb3_plug_v
+
+Top level modules:
+	hdb3_plug_v
+
+} {} {}} H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_code.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_code.v
+Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+-- Compiling module hdb3_code
+
+Top level modules:
+	hdb3_code
+
+} {} {}} H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_code_tb.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter17/hdb3_code/src/hdb3_code_tb.v
+Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+-- Compiling module hdb3_code_tb
+
+Top level modules:
+	hdb3_code_tb
+
+} {} {}}

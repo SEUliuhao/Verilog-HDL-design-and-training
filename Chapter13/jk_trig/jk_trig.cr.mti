@@ -1,0 +1,8 @@
+H:/fourbook/FB/code/Chapter13/jk_trig/src/jk_trig.v {1 {vlog -work work -nocovercells H:/fourbook/FB/code/Chapter13/jk_trig/src/jk_trig.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module jk_trig
+
+Top level modules:
+	jk_trig
+
+} {} {}}

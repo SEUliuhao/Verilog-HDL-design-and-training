@@ -1,0 +1,53 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter18\spi_slave
+vspi_master
+Im>MH5<Mg];=4jk[kX83]b3
+VUX48VVDUf;zSQz616DA^=1
+Z0 dH:\fourbook\FB\code\Chapter18\spi_master
+w1331991734
+8H:/fourbook/FB/code/Chapter18/spi_master/src/spi_master.v
+FH:/fourbook/FB/code/Chapter18/spi_master/src/spi_master.v
+L0 13
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 iLod?h_Sk:E08?Wnja3K00
+!s85 0
+!s101 -O0
+vspi_master_tb
+IXcR0=E3Me[dN5VAeId;_V1
+VGVIa@54JI5PLOVOW3THe=0
+Z4 dH:\fourbook\FB\code\Chapter18\spi_master
+w1331992424
+8H:/fourbook/FB/code/Chapter18/spi_master/src/spi_master_tb.v
+FH:/fourbook/FB/code/Chapter18/spi_master/src/spi_master_tb.v
+L0 14
+R1
+r1
+31
+R2
+R3
+!s100 _3=DP4;8jzScMPYCAbfRK0
+!s85 0
+!s101 -O0
+vspi_slave
+!s100 cXFP@Ogc38miZ>Pf0:h293
+IVf[PA6A9ZGn_:@KV6BTJ92
+Vj53]e?NYAeP]fUNXFakm72
+R4
+w1331980158
+8H:/fourbook/FB/code/Chapter18/spi_master/src/spi_slave.v
+FH:/fourbook/FB/code/Chapter18/spi_master/src/spi_slave.v
+L0 12
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3

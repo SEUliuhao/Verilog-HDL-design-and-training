@@ -1,0 +1,52 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : t_trig_tb.v
+// FUNCTION        : t_trig.v的测试仿真平台
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》————北京航天航空大学出版社
+// UPDATE          :
+//******************************************************************************
+`timescale 1ns/1ns
+
+module t_trig_tb;
+
+    //定义激励源
+    reg r_clk;
+    reg r_t;
+    
+    
+        
+    //定义输出信号连线
+    wire w_q;
+    wire w_qb;
+    
+    //实例化设计模块，采用端口名称映射方式
+    t_trig  I_t_trig
+        (
+            .i_clk(r_clk),   
+            .i_t(r_t),
+            .o_q(w_q),
+            .o_qb(w_qb)
+        );
+        
+    //产生时钟激励信号
+    initial
+    begin
+        r_clk = 1'b0;    
+        forever
+           #10 r_clk = ~r_clk;
+    end
+      
+    initial
+    begin
+        r_t = 1'b0; 
+        forever
+            #40 r_t = ~r_t1;
+    end
+endmodule
+
+// END OF t_trig_tb.v FILE ***************************************************
+
+
+

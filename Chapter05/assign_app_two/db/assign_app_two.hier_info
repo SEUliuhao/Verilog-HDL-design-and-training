@@ -1,0 +1,7 @@
+|assign_app_two
+din => data~0.DATAIN
+wr => data~0.OE
+dout <= dout~0.DB_MAX_OUTPUT_PORT_TYPE
+data <> data~0
+
+

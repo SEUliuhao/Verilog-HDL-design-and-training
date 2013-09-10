@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, H:/fourbook/FB/code/Chapter02/half_adder/half_adder.v
+source_file = 1, H:/fourbook/FB/code/Chapter02/half_adder/db/half_adder.cbx.xml
+design_name = half_adder
+instance = comp, \I_a~I , I_a, half_adder, 1
+instance = comp, \I_b~I , I_b, half_adder, 1
+instance = comp, \O_sum~0 , O_sum~0, half_adder, 1
+instance = comp, \O_cout~0 , O_cout~0, half_adder, 1
+instance = comp, \O_sum~I , O_sum, half_adder, 1
+instance = comp, \O_cout~I , O_cout, half_adder, 1

@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dH:\fourbook\FB\code\Chapter01\modelsim_test
+vcounter
+IoabOLkdH[H<23IH]WSKiQ0
+Vn4QT`J:R?6_]@KNz[J2AS3
+Z0 dH:\fourbook\FB\code\Chapter10\save_signal
+w1331709326
+8H:/fourbook/FB/code/Chapter10/save_signal/src/counter.v
+FH:/fourbook/FB/code/Chapter10/save_signal/src/counter.v
+L0 11
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-work work -nocovercells -O0
+!s100 HAB=olh@LH5=4D]_zJ?bD2
+!s85 0
+!s101 -O0
+Z3 !s102 -nocovercells
+vcounter_tb
+!s100 z`Q]VLmFz@WaRVHOU4lHk1
+IACOIINJ:355:ANTR]XYeU2
+VN6X[[7nWg]oz4[ZCKXDXe0
+Z4 dH:\fourbook\FB\code\Chapter10\save_signal
+w1331709902
+8H:/fourbook/FB/code/Chapter10/save_signal/src/counter_tb.v
+FH:/fourbook/FB/code/Chapter10/save_signal/src/counter_tb.v
+L0 13
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R3
+R2

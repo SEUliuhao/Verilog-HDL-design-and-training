@@ -1,0 +1,7 @@
+|d_if
+din_sel => dout.OUTPUTSELECT
+din_one => dout.DATAB
+din_two => dout.DATAA
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+

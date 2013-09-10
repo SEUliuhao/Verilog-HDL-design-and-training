@@ -1,0 +1,57 @@
+//*******************************FILE HEAD**************************************
+//*********************《Verilog HDL 设计与实战》配套源代码*********************
+// FILE NAME       : no_block_assign_two_tb.v
+// FUNCTION        : 非阻塞赋值应用示例二测试平台
+// AUTHOR          : 
+// DATE & REVISION : 
+// COMPANY         : 《Verilog HDL 设计与实战》
+// UPDATE          :
+//******************************************************************************
+   
+   
+`timescale 1ns/1ns
+module no_block_assign_two_tb();
+
+    reg a;
+    reg b;
+    reg c;
+    reg d;
+    wire y;
+    
+    block_assign_two I1_block_assign_two
+        (
+            .a(a),
+            .b(b),
+            .c(c),
+            .d(d),
+            .y(y)
+        );
+        
+    initial
+    begin
+            a = 1;
+            b = 0;
+            c = 0;
+            d = 0;            
+       #2   a = 1;
+            b = 1;
+            c = 0;
+            d = 0;
+       #2   a = 1;
+            b = 1;
+            c = 1;
+            d = 0;
+       #2   a = 1;
+            b = 0;
+            c = 1;
+            d = 1;
+       #2   a = 0;
+            b = 1;
+            c = 1;
+            d = 0;
+    end    
+endmodule
+  
+// END OF no_block_assign_two_tb.v FILE ***************************************************
+
+ 
